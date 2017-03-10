@@ -1,0 +1,29 @@
+{
+    "name": "903takings_server",
+    "version": "1.0.0",
+    "description": "API for entering takings for 903",
+    "author": "Edmond Tang",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/otterix/903takings_server"
+    },
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/otterix/903takings_server/issues",
+      "homepage": "https://github.com/otterix/903takings_server#readme"
+    },
+    "dependencies": {
+        "body-parser": "^1.17.0",
+        "express": "^4.15.0",
+        "mongodb": "^2.2.24"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "9/3/17",
+  "_id": "58c135de996be42084ed0136"
+}
+
+# 903takings_server
+
+# this is based off
+# https://medium.freecodecamp.com/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2#.d13ju4qpq
+# and
+# https://zellwk.com/blog/crud-express-mongodb/
+
+# db setup
+# setup db in mLab.com and add collection
+# add db link to config/db.js
+# add collection to relevant routes file (DayTaking_routes.js)
+
+# heroku Setup
+# based off https://devcenter.heroku.com/articles/deploying-nodejs
+# add Procfile in root directoy with this:
+#     web: node server.js
+# where server.js is the file to start
+
+# to deploy to heroku
+# cmd: heroku login
+# cmd: heroku create
+# either use heroku git via Heroku CLI to push app(code) to heroku; or
+# use GitHub to push to code across
+# cmd: heroku open or heroku local web
